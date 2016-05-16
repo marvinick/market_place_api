@@ -13,4 +13,4 @@ MarketPlaceApi::Application.routes.draw do
       resources :sessions, :only => [:create, :destroy]
     end
   end
-end
+end 
