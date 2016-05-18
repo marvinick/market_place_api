@@ -52,3 +52,4 @@ gem 'furatto', github: "IcaliaLabs/furatto-rails"
 gem 'font-awesome-rails'
 gem 'simple_form'
 
+
