@@ -54,5 +54,6 @@ gem 'sabisu_rails', github: "IcaliaLabs/sabisu-rails"
 gem 'furatto', github: "IcaliaLabs/furatto-rails"
 gem 'font-awesome-rails'
 gem 'simple_form'
+gem 'active_model_serializers'
 
 
