@@ -23,7 +23,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 #Api gems
-gem 'active_model_serializers'
+gem 'active_model_serializers', git: 'git@github.com:rails-api/active_model_serializers.git', branch: '0-8-stable'
 
 group :test, :development do
   gem 'ffaker'
@@ -54,6 +54,5 @@ gem 'sabisu_rails', github: "IcaliaLabs/sabisu-rails"
 gem 'furatto', github: "IcaliaLabs/furatto-rails"
 gem 'font-awesome-rails'
 gem 'simple_form'
-gem 'active_model_serializers'
 
 
