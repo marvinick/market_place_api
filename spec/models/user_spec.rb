@@ -8,7 +8,7 @@ describe User do
   it { should respond_to(:auth_token) }
 
   it { should have_many(:products)  }
-
+  it { should have_many(:orders) }
 
   it { should respond_to(:email) }
   it { should respond_to(:password) }
